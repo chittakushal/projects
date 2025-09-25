@@ -23,7 +23,7 @@ E-Hackathon is a web-based platform that enables the seamless management of hack
 
 ## 🛠️ Technologies Used  
 - Frontend: HTML, CSS, JavaScript  
-- Backend: PHP (with Laravel/Plain PHP)  
+- Backend: PHP (Plain PHP)  
 - Database: MySQL (via XAMPP)  
 - Server: Apache (via XAMPP)  
 
@@ -33,7 +33,7 @@ E-Hackathon is a web-based platform that enables the seamless management of hack
 - Teams & Participants: Manages team formations.  
 - Submissions & Scores: Stores project submissions and evaluations.  
 - Chat & Messaging: Enables communication between team members.  
-- Certificates: Automates certificate generation.  
+- Certificates: certificate generation.  
 
 ## 🚀 Installation Guide (Using XAMPP)  
 1. **Download and Install XAMPP**:  
@@ -52,8 +52,8 @@ E-Hackathon is a web-based platform that enables the seamless management of hack
 
 4. **Create the Database**  
    - Open **phpMyAdmin** (`http://localhost/phpmyadmin`).  
-   - Create a database (e.g., `e_hackathon`).  
-   - Import the provided SQL file (`e_hackathon.sql`).  
+   - Create a database (e.g., `hackathon`).  
+   - Import the provided SQL file (`hackathon.sql`).  
 
 5. **Configure Database Connection**  
    - Open `config.php` (or `.env` if using Laravel).  
@@ -62,18 +62,14 @@ E-Hackathon is a web-based platform that enables the seamless management of hack
      $host = "localhost";
      $user = "root";
      $password = "";
-     $database = "e_hackathon";
+     $database = "hackathon";
      ```
 
 6. **Run the Project**  
    - Open a web browser and go to:  
-     http://localhost/e-hackathon
-    
-
-## 🏆 Future Enhancements  
-- Implement AI-powered submission scoring.  
-- Add live streaming for hackathon events.  
-- Improve team collaboration tools.  
+     http://localhost/index.php
+     
 
 ## 🤝 Contributing  
-Contributions are welcome! Feel free to submit pull requests or report issues.  
+Contributions are welcome! Feel free to submit pull requests.  
+
